@@ -14,24 +14,111 @@ padding:5px;
 }
 .main{
 flex-direction:column;
-height:98.8vh;
+min-height:98.8vh;
+}
+.header{
+justify-content:space-between;
 }
 .one{
 display:flex;
 align-items:center;
+gap:5px;
 }
 .box{
-width:5vw;
+width:3vw;
 height:5vh;
 background-color:red;
 }
 .two{
 display:flex;
 align-items:center;
+gap:5px;
 }
 .tb{
-width:2vw;
+width:4vw;
+height:3vh;
+background-color:red;
+}
+.body{
+flex-grow:1;
+}
+.first{
+width:35vw;
+display:flex;
+border:1px solid black;
+flex-wrap:wrap;
+align-content:flex-start;
+gap:5px;
+padding:5px;
+}
+.fifteen{
+width:5vw;
+height:10vh;
+border:1px solid black;
+}
+.second{
+display:flex;
+flex-grow:1;
+border:1px solid black;
+padding:5px;
+gap:3px;
+justify-content:space-evenly;
+}
+.lbox{
+display:flex;
+flex-direction:column;
+gap:3px;
+}
+.tbox{
+width:15vw;
+height:20vh;
+border:1px solid black;
+}
+.bbox{
+width:15vw;
+height:20vh;
+border:1px solid black;
+}
+
+.rbox{
+display:flex;
+flex-direction:column;
+gap:3px;
+}
+.third{
+border:1px solid black;
+display:flex;
+flex-direction:column;
+gap:5px;
+padding:5px;
+}
+.ten{
+width:20vw;
 height:4vh;
+border:1px solid black;
+}
+.footer{
+flex-direction:column;
+}
+.f1{
+display:flex;
+align-items:center;
+gap:5px;
+}
+.f2{
+display:flex;
+flex-direction:column;
+align-items:center;
+border-top:1px solid black;
+padding:5px;
+}
+.other{
+display:flex;
+gap:5px;
+}
+.fivebox{
+width:1vw;
+height:2vh;
 background-color:red;
 }
 </style>
@@ -50,9 +137,65 @@ background-color:red;
 </div><!--header-->
 
 <div class="body">
+<div class="first">
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+<div class="fifteen"></div>
+</div>
+
+<div class="second">
+
+<div class="rbox">
+<div class="tbox"></div>
+<div class="tbox"></div>
+</div>
+<div class="lbox">
+<div class="bbox"></div>
+<div class="bbox"></div>
+</div>
+</div>
+
+<div class="third">
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+<div class="ten"></div>
+</div>
+
 </div><!--body-->
 
 <div class="footer">
+<div class="f1">
+<div class="box"></div><div class="text">FLEXBOX</div>
+</div>
+<div class="f2">
+<div class="other">
+<div class="fivebox"></div>
+<div class="fivebox"></div>
+<div class="fivebox"></div>
+<div class="fivebox"></div>
+<div class="fivebox"></div>
+</div>
+<div class="text">©Copyright All rights reserved.</div>
+</div>
 </div><!--footer-->
 
 </div><!--main-->
