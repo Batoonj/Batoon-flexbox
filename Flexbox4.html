@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+padding:0px;
+margin:0px;
+}
+.main,.header,.footer{
+border:1px solid black;
+display:flex;
+padding:5px;
+gap:5px;
+}
+.main{
+flex-direction:column;
+min-height:98.7vh;
+}
+.header{
+align-items:center;
+justify-content:space-between;
+}
+.left{
+align-items:center;
+display:flex;
+gap:5px;
+}
+.right{
+align-items:center;
+display:flex;
+gap:5px;
+}
+.red{
+width:3vw;
+height:5vh;
+background-color:red;
+}
+.blue{
+width:3vw;
+height:4vh;
+background-color:blue;
+}
+.body{
+flex-grow:1;
+display:flex;
+gap:5px;
+}
+.br{
+border:1px solid black;
+gap:5px;
+padding:5px;
+display:flex;
+flex-direction:column;
+}
+.ten{
+width:20vw;
+height:4vh;
+border:1px solid black;
+}
+.bl{
+border:1px solid black;
+flex-grow:1;
+display:flex;
+gap:5px;
+padding:10px;
+justify-content:space-evenly;
+}
+.big{
+width:20vw;
+height:25vh;
+border:1px solid black;
+}
+.one{
+display:flex;
+align-items:center;
+flex-direction:column;
+padding:5px;
+}
+.b{
+width:20vw;
+height:25vh;
+border:1px solid black;
+}
+.footer{
+flex-direction:column;
+}
+.bottom{
+align-items:center;
+padding-top:5px;
+display:flex;
+flex-direction:column;
+border-top:1px solid black;
+}
+.five{
+display:flex;
+gap:5px;
+}
+.redbox{
+width:1vw;
+height:2vh;
+background-color:red;
+}
+.r{
+display:flex;
+align-items:center;
+gap:5px;
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+
+ <div class="header">
+  <div class="left">
+   <div class="red"></div><div class="text">FLEXBOX</div>
+  </div>
+ <div class="right">
+  <div class="blue"></div><div class="blue"></div>
+ </div>
+ </div><!--header-->
+
+  <div class="body">
+  <div class="bl">
+  <div class="big one">
+  <div class="text"> Main Box 1</div>
+  <div class="b"></div>
+  </div>
+  <div class="big one">
+  <div class="text"> Main Box 1</div>
+  <div class="b"></div>
+  </div>
+  </div><!--bl-->
+  <div class="br">
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  <div class="ten"></div>
+  </div><!--br-->
+  </div><!--body-->
+
+   <div class="footer">
+   <div class="top">
+   <div class="r">
+   <div class="red"></div>
+   <div class="text">FLEXBOX</div>
+   </div><!--r-->
+   </div><!--top-->
+   <div class="bottom">
+   <div class="five">
+   <div class="redbox"></div><div class="redbox"></div><div class="redbox"></div><div class="redbox"></div><div class="redbox"></div>
+   </div><!--five-->
+   <div class="text">©Copyright All rights reserved.</div>
+   </div><!--bottom-->
+
+   </div><!--footer-->
+
+</div><!--main-->
